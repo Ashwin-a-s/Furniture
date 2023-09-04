@@ -1,0 +1,194 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+*{
+   margin:0; 
+  /* overflow:hidden ; */
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+body{
+margin:0;
+height:3000px;
+background-color: rgb(255, 255, 255);
+margin-top: 20px;
+ background-image: url('https://www.simplysofas.in/assets/images/new%20website%20banner-01.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+}
+/* .navSection{
+  margin-top: -35px; 
+  margin-left: 125px;
+   /* position:fixed; 
+ }
+ .navSection ul li{
+     position: relative;
+     float:left;
+ }
+ .navSection ul li a{
+   padding:20px;
+   font-size: 25px;
+   font-family:'Courier New', Courier, monospace;
+   font-style: italic;
+   font-weight: bold;
+   /* background-color: blue; 
+ }
+ .navSection ul li a:hover{
+     color:rgb(252, 155, 10);
+ }
+ .navSection ul li ul{
+     position: absolute;
+      display: none; 
+      left:-30px;
+ }
+ .navSection ul li:hover ul{
+     display:block;
+   
+ }
+ .profile ul li{
+     left:-20px;
+ } */
+ .furnix{
+     font-family:Impact, Haettenschweiler;
+     font-size: 45px;
+     margin-left: 20px;
+ }
+.form{
+    margin-top: 18%;
+    margin-left: 35%;
+ } 
+ .form input{
+  width: 300px;
+  height:35px;
+  border-color: rgba(255, 255, 255, 0.685);
+  border-radius: 5px;
+ }
+  .form ::placeholder {
+    color:rgba(122, 42, 42, 0.685);
+ }
+ .password{
+    margin-top: 20px;
+ }
+ .form p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+ }
+ .formtotal{
+   margin-top: 30px;
+   margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+ }
+ .acc{
+    font-size: 30px;
+    margin-top: 20px;
+    color:white;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+   .signup{
+      color:rgba(255, 255, 255, 0.884);
+    font-family:Arial, sans-serif ;
+    font-weight: 100;
+      padding:0;
+      border: none;
+      background-color: rgb(255, 255, 255);
+      font-size:20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ .form button{
+    padding: 10px;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color:rgb(2, 41, 28);
+      background-color: transparent;
+      border-color:white;
+      border-radius: 5px; 
+      color:rgb(255, 255, 255); 
+      transition: 0.8s; 
+ }
+ .form button:hover{
+   background-color: white;
+   color:black;
+   font-weight:bold;
+ }
+ .signup{
+   background-color:transparent;
+   color:rgb(255, 255, 255);
+   border-radius: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   font-size: 25px;
+   transition:0.8s;
+ }
+ .signup:hover{
+   color:rgb(255, 174, 0);
+ }
+
+
+ .collapse{
+  margin-top:20px;
+  justify-content: end;
+}
+.navbar{
+  background-color:red;
+}
+.navbar-brand{
+ font-size:40px;
+ color:rgb(0, 0, 0);
+}
+.navContent{
+  margin-right: 50px;
+}
+.dropdown-divider{
+  color:rgb(0, 0, 0);
+}
+.search{
+  display:flex;
+  align-items: center;
+}
+.searchIcon{
+font-size:x-large;
+margin-left: 170px;
+position:absolute;
+}
+.navContent ul li a{
+  background-color:transparent;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+}  
+.navContent ul li a:hover{
+  background-color:transparent;
+  color:orange;
+}
+.search input{
+background-color: transparent
+} 
+.search input::placeholder{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+}
+.searchIcon{
+  color:rgb(0, 0, 0);
+}
+.profile ul{
+  position: absolute;
+   display: none; 
+   /* left:-30px; */
+}
+.profile:hover ul{
+  display:block;
+   transition-delay: 0ms 10s;   
+}
+.icon{
+  font-size:30px;
+  color:rgb(0, 0, 0);
+}
